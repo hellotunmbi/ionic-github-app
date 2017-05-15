@@ -10,6 +10,8 @@ import { UsersPage } from '../pages/users/users';
 import { ReposPage } from '../pages/repos/repos';
 import { OrganisationsPage } from '../pages/organisations/organisations';
 
+import { GithubUsers } from '../providers/github-users/github-users';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -31,7 +33,8 @@ import { OrganisationsPage } from '../pages/organisations/organisations';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    GithubUsers
   ]
 })
 export class AppModule {}
