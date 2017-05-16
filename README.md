@@ -1,26 +1,30 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## How to use this template
+## Ionic Github Mobile App
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/driftyco/ionic2-app-base).
+This app is built based on the [Ionic Framework](http://www.ionicframework.com)
+Integrated with [Github API](http://api.github.com)
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+### Prerequisite
+- Node and NPM
+- Ionic
+- Cordova
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start myTutorial tutorial
 ```
 
-Then, to run it, cd into `myTutorial` and run:
+
+### To Run
+- Clone the repo
+- cd ionic-github-app, then run:
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+
+$ ionic serve
+
 ```
 
-Substitute ios for android if not on a Mac.
+App will start on port 8100, i.e http://localhost:8100
 
+
+*Feel free to fork, clone, Star(very important) and follow me on twitter: hellotunmbi*
