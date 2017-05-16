@@ -1,8 +1,7 @@
 
 ## Ionic Github Mobile App
 
-This app is built based on the [Ionic Framework](http://www.ionicframework.com)
-Integrated with [Github API](http://api.github.com)
+This app is built based on the [Ionic Framework](http://www.ionicframework.com), integrated with [Github API](http://api.github.com)
 
 ### Prerequisite
 - Node and NPM
