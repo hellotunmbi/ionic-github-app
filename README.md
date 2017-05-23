@@ -12,6 +12,7 @@ This app is built based on the [Ionic Framework](http://www.ionicframework.com),
 - Ionic (HTML and CSS)
 - Angular 2
 
+### Install Ionic framework and Cordova globally on your computer
 ```bash
 $ sudo npm install -g ionic cordova
 ```
